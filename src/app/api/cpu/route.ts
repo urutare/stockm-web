@@ -1,5 +1,5 @@
-import { NextResponse } from "next/server";
-import { availableParallelism } from "node:os";
+import { availableParallelism } from 'node:os';
+import { NextResponse } from 'next/server';
 
 const numCPUs = availableParallelism();
 

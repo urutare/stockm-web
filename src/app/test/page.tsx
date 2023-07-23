@@ -1,5 +1,5 @@
-import ProductsGrid from "@/components/shared/ProductGrid";
-import React from "react";
+import React from 'react';
+import ProductsGrid from '@/components/shared/ProductGrid';
 
 const page = () => {
   return <ProductsGrid />;

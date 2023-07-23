@@ -1,4 +1,4 @@
-import { images } from "./images";
+import { images } from './images';
 
 export const generateProducts = () => {
   return images.map((image, i) => ({
@@ -7,6 +7,6 @@ export const generateProducts = () => {
     title: image.author,
     subtitle: `Category ${(i % 3) + 1}`,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   }));
 };

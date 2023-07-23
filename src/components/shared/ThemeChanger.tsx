@@ -1,16 +1,18 @@
-"use client";
+/* eslint-disable jsx-a11y/label-has-associated-control */
 
-import { useEffect, useState } from "react";
-import { useTheme } from "next-themes";
+'use client';
+
+import { useEffect, useState } from 'react';
+import { useTheme } from 'next-themes';
 
 const themes = [
-  { name: "Light" },
-  { name: "Dark" },
-  { name: "Emerald" },
-  { name: "Pink" },
+  { name: 'Light' },
+  { name: 'Dark' },
+  { name: 'Emerald' },
+  { name: 'Pink' },
 ];
 
-const ThemeChanger = () => {
+function ThemeChanger() {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
@@ -20,7 +22,7 @@ const ThemeChanger = () => {
   if (!mounted) return null;
 
   return (
-    <div className="p-8 flex justify-between items-center font-bold text-xl bg-th-background-secondary text-th-primary-dark w-full">
+    <div className="flex w-full items-center justify-between bg-th-background-secondary p-8 text-xl font-bold text-th-primary-dark">
       <span>
         The current theme is: <strong>{theme}</strong>
       </span>
@@ -31,13 +33,16 @@ const ThemeChanger = () => {
         <select
           name="theme"
           id="theme-select"
-          className="bg-white text-gray-800 border-gray-800 border py-1 px-3"
-          onChange={(e) => setTheme(e.currentTarget.value)}
+          className="border border-gray-800 bg-white px-3 py-1 text-gray-800"
+          onChange={e => setTheme(e.currentTarget.value)}
           value={theme}
         >
           <option value="system">System</option>
-          {themes.map((t) => (
-            <option key={t.name.toLowerCase()} value={t.name.toLowerCase()}>
+          {themes.map(t => (
+            <option
+              key={t.name.toLowerCase()}
+              value={t.name.toLowerCase()}
+            >
               {t.name}
             </option>
           ))}
@@ -45,6 +50,6 @@ const ThemeChanger = () => {
       </div>
     </div>
   );
-};
+}
 
 export default ThemeChanger;
