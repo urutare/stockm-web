@@ -1,7 +1,8 @@
 export const LP_GRID_ITEMS = [
   {
-    title: "Next.js",
-    description: "Fast by default, with config optimized for performance.",
+    title: 'Next.js',
+    description:
+      'Fast by default, with config optimized for performance.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -20,8 +21,9 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Tailwind CSS",
-    description: "A utility-first CSS framework for rapid UI development.",
+    title: 'Tailwind CSS',
+    description:
+      'A utility-first CSS framework for rapid UI development.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -40,8 +42,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "ESlint & Prettier",
-    description: "For clean, consistent, and error-free code.",
+    title: 'ESlint & Prettier',
+    description: 'For clean, consistent, and error-free code.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -51,13 +53,17 @@ export const LP_GRID_ITEMS = [
         stroke="currentColor"
         className="h-6 w-6"
       >
-        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M4.5 12.75l6 6 9-13.5"
+        />
       </svg>
     ),
   },
   {
-    title: "Extremely strict TypeScript",
-    description: "With `ts-reset` library for ultimate type safety.",
+    title: 'Extremely strict TypeScript',
+    description: 'With `ts-reset` library for ultimate type safety.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -76,8 +82,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Bundle analyzer plugin",
-    description: "Keep an eye on your bundle size.",
+    title: 'Bundle analyzer plugin',
+    description: 'Keep an eye on your bundle size.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -96,8 +102,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Jest & React Testing Library",
-    description: "For rock-solid unit and integration tests.",
+    title: 'Jest & React Testing Library',
+    description: 'For rock-solid unit and integration tests.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -116,8 +122,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Playwright",
-    description: "Write end-to-end tests like a pro.",
+    title: 'Playwright',
+    description: 'Write end-to-end tests like a pro.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -136,8 +142,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Storybook",
-    description: "Create, test, and showcase your components.",
+    title: 'Storybook',
+    description: 'Create, test, and showcase your components.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -156,8 +162,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Smoke Testing & Acceptance Tests",
-    description: "For confidence in your deployments.",
+    title: 'Smoke Testing & Acceptance Tests',
+    description: 'For confidence in your deployments.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -176,8 +182,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Conventional commits git hook",
-    description: "Keep your commit history neat and tidy.",
+    title: 'Conventional commits git hook',
+    description: 'Keep your commit history neat and tidy.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -196,8 +202,9 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Observability",
-    description: "Open Telemetry integration for seamless monitoring.",
+    title: 'Observability',
+    description:
+      'Open Telemetry integration for seamless monitoring.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -212,13 +219,17 @@ export const LP_GRID_ITEMS = [
           strokeLinejoin="round"
           d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
         />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+        />
       </svg>
     ),
   },
   {
-    title: "Absolute imports",
-    description: "No more spaghetti imports.",
+    title: 'Absolute imports',
+    description: 'No more spaghetti imports.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -237,8 +248,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Health checks",
-    description: "Kubernetes-compatible for robust deployments.",
+    title: 'Health checks',
+    description: 'Kubernetes-compatible for robust deployments.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -257,8 +268,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Radix UI",
-    description: "Headless UI components for endless customization.",
+    title: 'Radix UI',
+    description: 'Headless UI components for endless customization.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -277,8 +288,9 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "CVA",
-    description: "Create a consistent, reusable, and atomic design system.",
+    title: 'CVA',
+    description:
+      'Create a consistent, reusable, and atomic design system.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -297,8 +309,9 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Renovate BOT",
-    description: "Auto-updating dependencies, so you can focus on coding.",
+    title: 'Renovate BOT',
+    description:
+      'Auto-updating dependencies, so you can focus on coding.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -317,8 +330,9 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Patch-package",
-    description: "Fix external dependencies without losing your mind.",
+    title: 'Patch-package',
+    description:
+      'Fix external dependencies without losing your mind.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -337,8 +351,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Components coupling & cohesion graph",
-    description: "A tool for managing component relationships.",
+    title: 'Components coupling & cohesion graph',
+    description: 'A tool for managing component relationships.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -348,14 +362,23 @@ export const LP_GRID_ITEMS = [
         stroke="currentColor"
         className="h-6 w-6"
       >
-        <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z"
+        />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z"
+        />
       </svg>
     ),
   },
   {
-    title: "GitHub Actions",
-    description: "Pre-configured actions for smooth workflows, including Bundle Size and performance stats.",
+    title: 'GitHub Actions',
+    description:
+      'Pre-configured actions for smooth workflows, including Bundle Size and performance stats.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -374,8 +397,9 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Automated ChatGPT Code Reviews",
-    description: "Stay on the cutting edge with AI-powered code reviews!",
+    title: 'Automated ChatGPT Code Reviews',
+    description:
+      'Stay on the cutting edge with AI-powered code reviews!',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -394,8 +418,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Semantic Release",
-    description: "For automatic changelog generation.",
+    title: 'Semantic Release',
+    description: 'For automatic changelog generation.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -413,4 +437,4 @@ export const LP_GRID_ITEMS = [
       </svg>
     ),
   },
-]
+];

@@ -1,7 +1,13 @@
+/* eslint-disable global-require */
 module.exports = {
-  plugins: [require("prettier-plugin-tailwindcss")],
-  trailingComma: "es5",
+  plugins: [require('prettier-plugin-tailwindcss')],
+  semi: true,
+  endOfLine: 'auto',
+  printWidth: 70,
+  singleQuote: true,
   tabWidth: 2,
-  printWidth: 120,
-  semi: false,
-}
+  useTabs: false,
+  arrowParens: 'avoid',
+  bracketSameLine: false,
+  trailingComma: 'all',
+};
